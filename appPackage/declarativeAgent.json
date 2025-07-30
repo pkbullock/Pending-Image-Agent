@@ -1,0 +1,21 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.4/schema.json",
+    "version": "v1.4",
+    "name": "Pending Image Agent",
+    "description": "Declarative agent created with Microsoft 365 Agents Toolkit",
+    "instructions": "$[file('instruction.txt')]",
+    "conversation_starters": [
+        {
+            "title": "Create a new image",
+            "text": "Create a new image using the idea from your sample"
+        },
+        {
+            "title": "Learn more about declarative agents",
+            "text": "Learn more about declarative agents and how they can help you."
+        },
+        {
+            "title": "Community Rocks!",
+            "text": "Get recognised for the sample you submitted to the community repository."
+        }
+    ]
+}
